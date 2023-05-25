@@ -1,4 +1,9 @@
 function mergeArray(arr1, arr2) {
+    if(arr1.length === 0) {
+        return arr2;
+    } else if(arr2.length === 0) {
+        return arr1;
+    }
     let mergedArr = [];
     let [i1, i2] = [0, 0];
     while (mergedArr.length < arr1.length + arr2.length) {
