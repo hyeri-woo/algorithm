@@ -43,6 +43,7 @@ for candidate in candidates:
     if not is_valid:
         break
 
+# 출력
 if is_valid:
     print("".join(answer))
 else:
